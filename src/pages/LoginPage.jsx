@@ -110,13 +110,7 @@ const LoginPage = () => {
               <p className="text-red-500 text-sm mt-1 ">{errors.password}</p>
             )}
           </div>
-          <Link className='text-blue-500 text-sm mb-4 block' to="/register">
-          Signup ?
-          </Link>
-
-          <Link className='text-blue-500 text-sm mb-4 block' to="/forgot">
-          Forgot password?
-          </Link>
+    
 
           <button
             type="submit"
