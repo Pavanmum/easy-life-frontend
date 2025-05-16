@@ -17,7 +17,7 @@ const SlotList = ({ slots, serviceId }) => {
     );
       alert("Slot booked successfully!");
       navigate("/booking");
-      // Optionally refresh the data or update UI
+
     } catch (error) {
       console.error("Booking failed:", error);
 
